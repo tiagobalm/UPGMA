@@ -2,7 +2,7 @@ from ete3 import Tree
 from matrixBuilder import build_distance_matrix
 
 protein1 = "ARNDCQEGHILKMFPSTWYVBZX"
-protein2 = "ARNDCAEGHILKMFPSTWYVBZX"
+protein2 = "ARHDCAEGHILKMFPSTWYVBZX"
 protein3 = "ARNDCAEGHCLKMFPSTWYVBZX"
 protein4 = "ARNDCQEGHCLKMFPSTWYVBZX"
 protein5 = "ARNDCQEGHILKMFPSTWYWBZX"

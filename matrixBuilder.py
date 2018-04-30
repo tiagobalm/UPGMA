@@ -34,7 +34,7 @@ def build_distance_matrix(proteins):
     for i in range(0, len(proteins)):
         distances = []
         for j in range(0, i):
-            distances.append(calculate_best_score(needleman_wunsch(proteins[i], proteins[j], 1, False)))
+            distances.append(calculate_best_score(needleman_wunsch(proteins[i], proteins[j], -3, False)))
         distance_matrix.append(distances)
 
     return distance_matrix
