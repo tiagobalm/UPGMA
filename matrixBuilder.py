@@ -1,14 +1,6 @@
 from alignment import needleman_wunsch
 from BLOSUM62 import *
 
-protein1 = "ARNDCQEGHILKMFPSTWYVBZX"
-protein2 = "ARNDCAEGHILKMFPSTWYVBZX"
-protein3 = "ARNDCAEGHCLKMFPSTWYVBZX"
-protein4 = "ARNDCQEGHCLKMFPSTWYVBZX"
-protein5 = "ARNDCQEGHILKMFPSTWYWBZX"
-protein6 = "ARNDCQEGHILKMFPSTWYVWWW"
-
-proteinsArray = [protein1, protein2, protein3, protein4, protein5, protein6]
 threshold = 0
 
 
@@ -46,6 +38,3 @@ def build_distance_matrix(proteins):
         distance_matrix.append(distances)
 
     return distance_matrix
-
-
-print(build_distance_matrix(proteinsArray))

@@ -1,11 +1,15 @@
 from ete3 import Tree
+from matrixBuilder import build_distance_matrix
 
+protein1 = "ARNDCQEGHILKMFPSTWYVBZX"
+protein2 = "ARNDCAEGHILKMFPSTWYVBZX"
+protein3 = "ARNDCAEGHCLKMFPSTWYVBZX"
+protein4 = "ARNDCQEGHCLKMFPSTWYVBZX"
+protein5 = "ARNDCQEGHILKMFPSTWYWBZX"
+protein6 = "ARNDCQEGHILKMFPSTWYVWWW"
 
-def abc(start, end):
-    abc = []
-    for i in range(ord(start), ord(end) + 1):
-        abc.append(chr(i))
-    return abc
+proteinsArray = [protein1, protein2, protein3, protein4, protein5, protein6]
+proteinNames = ["protein1", "protein2", "protein3", "protein4", "protein5", "protein6"]
 
 
 def coordinates_lowest_value_matrix(matrix):
@@ -45,30 +49,19 @@ def update_matrix(matrix, x, y):
     return matrix
 
 
-def upgma(distance_matrix, abc):
-    while len(abc) > 1:
+def upgma(distance_matrix, protein_labels):
+    while len(protein_labels) > 1:
         x, y = coordinates_lowest_value_matrix(distance_matrix)
         update_matrix(distance_matrix, x, y)
-        clustering_abc(abc, x, y)
-    return abc[0]
+        clustering_abc(protein_labels, x, y)
+    return protein_labels[0]
 
 
-def constructing_final_tree(distance_matrix, abc):
-    v = str(upgma(distance_matrix, abc)) + ";"
+def constructing_final_tree(distance_matrix, protein_labels):
+    v = str(upgma(distance_matrix, protein_labels)) + ";"
     t = Tree(v)
-    print(t)
+    return t
 
 
-distance_matrix = [
-    [],
-    [9],
-    [2, 9],
-    [4, 6, 5],
-    [9, 2, 9, 6],
-    [10, 10, 10, 10, 10]
-]
-
-abc = abc("A", "F")
-
-print(constructing_final_tree(distance_matrix, abc))
-
+distanceMatrix = build_distance_matrix(proteinsArray)
+print(constructing_final_tree(distanceMatrix, proteinNames))
