@@ -12,8 +12,11 @@ def build_protein_arrays():
 
     for file in os.listdir(directory):
         f = open(os.path.join(directory, file), "r")
-        protein_names.append(file)
         protein = f.read()
+        name = protein.split('\n')[0:1]
+        name = name[0].split(' ')[:1]
+        name = name[0][1:]
+        protein_names.append(name)
         protein = protein.split('\n')[1::]
         protein = ''.join(protein)
         protein_array.append(protein)
@@ -25,4 +28,5 @@ def build_protein_arrays():
         protein = protein[:shortest_string]
 
     return protein_array, protein_names
+
 
