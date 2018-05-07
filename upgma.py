@@ -1,15 +1,10 @@
 from ete3 import Tree
 from matrixBuilder import build_distance_matrix
+from proteinArrayBuilder import build_protein_arrays
+import logging
 
-protein1 = "ARNDCQEGHILKMFPSTWYVBZX"
-protein2 = "ARHDCAEGHILKMFPSTWYVBZX"
-protein3 = "ARNDCAEGHCLKMFPSTWYVBZX"
-protein4 = "ARNDCQEGHCLKMFPSTWYVBZX"
-protein5 = "ARNDCQEGHILKMFPSTWYWBZX"
-protein6 = "ARNDCQEGHILKMFPSTWYVWWW"
 
-proteinsArray = [protein1, protein2, protein3, protein4, protein5, protein6]
-proteinNames = ["protein1", "protein2", "protein3", "protein4", "protein5", "protein6"]
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def coordinates_lowest_value_matrix(matrix):
@@ -63,5 +58,12 @@ def constructing_final_tree(distance_matrix, protein_labels):
     return t
 
 
+proteinsArray, proteinNames = build_protein_arrays()
+
+logging.debug("Building distance matrix. Please wait...")
+
 distanceMatrix = build_distance_matrix(proteinsArray)
+
+logging.debug("Building tree....")
+
 print(constructing_final_tree(distanceMatrix, proteinNames))

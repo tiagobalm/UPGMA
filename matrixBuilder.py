@@ -18,12 +18,7 @@ def calculate_score(alignment):
 
 
 def calculate_best_score(all_alignments):
-    best_score = 0
-
-    for i in range(0, len(all_alignments)):
-        score = calculate_score(all_alignments[i])
-        if score > best_score:
-            best_score = score
+    best_score = calculate_score(all_alignments[0])
 
     return best_score
 

@@ -81,30 +81,27 @@ def find_next_move(seq1, seq2, matrix_scores, gap, i, j, is_dna):
     left_score = matrix_scores[i][j - 1]
     up_score = matrix_scores[i - 1][j]
 
-    moves = []
     if actual_score == up_score + gap:
-        moves.append('UP')
+        return ['UP']
     if actual_score == left_score + gap:
-        moves.append('LEFT')
+        return ['LEFT']
     if actual_score == diagonal_score + score(seq1[j - 1], seq2[i - 1], is_dna):
-        moves.append('DIAGONAL')
-    return moves
+        return ['DIAGONAL']
 
 
 def find_path(seq1, seq2, matrix_scores, gap, path, all_paths, i, j, is_dna):
-    next_moves = find_next_move(seq1, seq2, matrix_scores, gap, i, j, is_dna)
+    next_move = find_next_move(seq1, seq2, matrix_scores, gap, i, j, is_dna)
 
-    if next_moves is None:
+    if next_move is None:
         all_paths.append(path + [[i, j]])
         return
 
-    for move in next_moves:
-        if move == 'UP':
-            find_path(seq1, seq2, matrix_scores, gap, path + [[i, j]], all_paths, i - 1, j, is_dna)
-        elif move == 'LEFT':
-            find_path(seq1, seq2, matrix_scores, gap, path + [[i, j]], all_paths, i, j - 1, is_dna)
-        else:
-            find_path(seq1, seq2, matrix_scores, gap, path + [[i, j]], all_paths, i - 1, j - 1, is_dna)
+    if next_move == 'UP':
+        find_path(seq1, seq2, matrix_scores, gap, path + [[i, j]], all_paths, i - 1, j, is_dna)
+    elif next_move == 'LEFT':
+        find_path(seq1, seq2, matrix_scores, gap, path + [[i, j]], all_paths, i, j - 1, is_dna)
+    else:
+        find_path(seq1, seq2, matrix_scores, gap, path + [[i, j]], all_paths, i - 1, j - 1, is_dna)
     return
 
 
