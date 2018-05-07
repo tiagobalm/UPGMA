@@ -1,8 +1,7 @@
-from ete3 import Tree
+from ete3 import Tree, TreeStyle
 from matrixBuilder import build_distance_matrix
 from proteinArrayBuilder import build_protein_arrays
 import logging
-
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -18,7 +17,7 @@ def coordinates_lowest_value_matrix(matrix):
     return x, y
 
 
-def clustering_abc(abc, x, y):
+def clustering_abc(matrix, abc, x, y):
     if y < x:
         x, y = y, x
     abc[x] = "(" + abc[x] + "," + abc[y] + ")"
@@ -48,14 +47,20 @@ def upgma(distance_matrix, protein_labels):
     while len(protein_labels) > 1:
         x, y = coordinates_lowest_value_matrix(distance_matrix)
         update_matrix(distance_matrix, x, y)
-        clustering_abc(protein_labels, x, y)
+        clustering_abc(distance_matrix, protein_labels, x, y)
+        if len(distance_matrix) == 2:
+            distance_to_root = distance_matrix[1][0] / 2
     return protein_labels[0]
 
 
 def constructing_final_tree(distance_matrix, protein_labels):
     v = str(upgma(distance_matrix, protein_labels)) + ";"
     t = Tree(v)
-    return t
+    ts = TreeStyle()
+    ts.show_leaf_name = True
+    t.convert_to_ultrametric()
+    ts.scale = 120
+    t.show(tree_style=ts)
 
 
 proteinsArray, proteinNames = build_protein_arrays()
@@ -67,3 +72,4 @@ distanceMatrix = build_distance_matrix(proteinsArray)
 logging.debug("Building tree....")
 
 print(constructing_final_tree(distanceMatrix, proteinNames))
+

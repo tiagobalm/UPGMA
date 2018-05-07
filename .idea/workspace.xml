@@ -1,411 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afe8088c-165f-471d-b2d6-8067ea25bd78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/documentation/Manual_MrBayes_v3.2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/bayes.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/best.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/command.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/likelihood.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/mb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/mbbeagle.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/mcmc.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/model.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/proposal.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/sumpt.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/utils.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/images/DrawGramCat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/images/DrawGramControls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/images/DrawTreeCat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/images/DrawTreeControls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/images/InputTree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/phylip.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/DrawGram.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/DrawTree.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/clique" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/consense" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/contml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/contrast" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dnacomp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dnadist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dnainvar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dnaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dnamlk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dnamove" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dnapars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dnapenny" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dollop" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dolmove" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/dolpenny" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/drawgram" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/drawtree" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/factor" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/fitch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/gendist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/kitsch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/libdrawgram.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/libdrawtree.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/mix" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/move" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/neighbor" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/pars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/penny" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/proml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/promlk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/protdist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/protpars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/restdist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/restml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/retree" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/seqboot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/treedist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/boot.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/clique.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/consense.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contml.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contrast.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/disc.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dist.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dna.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dollo.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/drawgram.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/drawtree.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/gendist.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protein.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restrict.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/retree.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/treedist.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawGram.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawGramJava.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawTree.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawTreeJava.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/libdrawgram.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/libdrawgram.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/libdrawtree.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/boot.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/clique.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/consense.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/contml.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/contrast.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/disc.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dist.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dna.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dnacomp.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dnadist.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dnainvar.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dnaml.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dnamlk.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dnamove.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dnapars.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dnapenny.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dollo.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dollop.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dolmove.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/dolpenny.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/drawgram.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/drawtree.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/factor.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/fitch.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/gendist.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/kitsch.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/mix.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/move.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/neighbor.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/pars.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/penny.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/proml.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/promlk.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/protdist.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/protein.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/protpars.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/restdist.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/restml.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/restrict.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/retree.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/seqboot.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/treedist.icns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.ckp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.con.tre" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.mcmc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.parts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.run1.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.run1.t" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.run2.p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.run2.t" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.trprobs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.tstat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex.vstat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/documentation/commref_mb3.2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/documentation/release_note.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/avian_ovomucoids.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/codon.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/cynmix.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/finch.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/hymfossil.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/primates.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/replicase.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/sceloporus.nex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/._bayes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/._mcmc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/._proposal.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/._proposal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/._sumpt.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/CompileInstructions.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/Makefile.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/autom4te.cache/output.0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/autom4te.cache/requests" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/autom4te.cache/traces.0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/bayes.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/bayes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/best.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/best.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/command.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/command.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/config.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/config.h.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/config.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/config.status" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/configure" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/configure.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/gpl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/install-sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/likelihood.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/likelihood.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/mbbeagle.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/mbbeagle.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/mcmc.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/mcmc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/model.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/model.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/proposal.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/proposal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/sumpt.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/sumpt.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/utils.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/utils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/clique.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/consense.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/contchar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/contml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/contrast.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/discrete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/distance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dnacomp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dnadist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dnainvar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dnaml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dnamlk.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dnamove.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dnapars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dnapenny.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dollop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dolmove.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/dolpenny.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/draw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/drawgram.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/drawtree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/factor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/fitch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/gendist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/kitsch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/mix.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/move.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/neighbor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/pars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/penny.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/proml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/promlk.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/protdist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/protpars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/restdist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/restml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/retree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/seqboot.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/sequence.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/doc/treedist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/DrawGramJava.unx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/DrawTreeJava.unx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/font1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/font2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/font3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/font4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/font5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/font6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/mfs_1.phy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/mfs_1_1st_step.phy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/mfs_1_result" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/exe/mfs_1_tree" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/phylip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/COPYRIGHT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/Makefile.cyg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/Makefile.osx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/Makefile.unx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/buildDmg.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/clique.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/cons.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/cons.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/consense.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/cont.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/cont.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/contml.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/contrast.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/disc.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/disc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/discrete.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/discrete.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dist.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dist.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dnacomp.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dnadist.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dnainvar.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dnaml.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dnamlk.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dnamove.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dnapars.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dnapenny.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dollo.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dollo.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dollop.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dolmove.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/dolpenny.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/draw.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/draw.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/draw2.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/drawgram.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/drawtree.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/factor.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/fitch.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/font1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/font2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/font3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/font4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/font5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/font6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/gendist.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/clique.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/clique.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/consense.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/consense.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contml.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contml.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contrast.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contrast.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnacomp.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnacomp.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnadist.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnadist.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnainvar.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnainvar.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnaml.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnaml.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamlk.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamlk.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamove.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamove.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapars.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapars.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapenny.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapenny.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dollop.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dollop.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dolmove.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dolmove.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dolpenny.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dolpenny.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/drawgram.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/drawgram.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/drawtree.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/drawtree.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/factor.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/factor.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/fitch.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/fitch.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/gendist.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/gendist.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/kitsch.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/kitsch.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/mix.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/mix.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/move.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/move.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/neighbor.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/neighbor.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/pars.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/pars.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/penny.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/penny.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/proml.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/proml.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/promlk.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/promlk.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protdist.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protdist.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protpars.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protpars.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restdist.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restdist.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restml.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restml.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/retree.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/retree.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/seqboot.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/seqboot.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/treedist.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/treedist.rcb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/infile2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/io.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawGramJava.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawGramJava.unx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawTreeJava.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawTreeJava.unx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/drawgram/DrawgramInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/drawgram/DrawgramUserInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/drawtree/DrawtreeInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/drawtree/DrawtreeUserInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/util/DisplayProgress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/util/DrawPreview.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/util/LabelData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/util/PhylipFileDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/util/PlotData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/util/SectionData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/javasrc/util/TestFileNames.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/kitsch.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/linkmac" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/Info.plist.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mac/command.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mix.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mlclock.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/mlclock.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/move.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/moves.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/moves.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/neighbor.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/pars.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/penny.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/phylip.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/phylip.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/phylip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/printree.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/printree.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/proml.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/promlk.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/protdist.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/protpars.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/restdist.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/restml.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/retree.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/seq.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/seq.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/seqboot.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/treedist.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/wagner.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phylip-3.697/src/wagner.h" />
+    <list default="true" id="afe8088c-165f-471d-b2d6-8067ea25bd78" name="Default" comment="Mrbayes and Phylip added">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nj.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proteinArrayBuilder.py" afterPath="$PROJECT_DIR$/proteinArrayBuilder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/documentation/commref_mb3.2.txt" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/documentation/commref_mb3.2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/documentation/release_note.txt" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/documentation/release_note.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/examples/avian_ovomucoids.nex" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/avian_ovomucoids.nex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/examples/codon.nex" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/codon.nex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/examples/cynmix.nex" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/cynmix.nex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/examples/finch.nex" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/finch.nex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/examples/primates.nex" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/primates.nex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/examples/replicase.nex" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/replicase.nex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/examples/sceloporus.nex" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/examples/sceloporus.nex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/src/CompileInstructions.txt" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/CompileInstructions.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrbayes-3.2.6/src/gpl.txt" afterPath="$PROJECT_DIR$/mrbayes-3.2.6/src/gpl.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/Makefile.cyg" afterPath="$PROJECT_DIR$/phylip-3.697/src/Makefile.cyg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/clique.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/clique.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/consense.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/consense.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/consense.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/consense.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/contml.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contml.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/contml.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contml.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/contrast.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contrast.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/contrast.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/contrast.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnacomp.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnacomp.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnacomp.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnacomp.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnadist.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnadist.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnadist.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnadist.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnainvar.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnainvar.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnainvar.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnainvar.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnaml.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnaml.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnaml.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnaml.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamlk.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamlk.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamlk.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamlk.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamove.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamove.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamove.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnamove.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapars.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapars.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapars.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapars.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapenny.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapenny.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapenny.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dnapenny.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dollop.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dollop.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dollop.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dollop.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dolmove.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dolmove.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dolmove.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dolmove.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dolpenny.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dolpenny.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/dolpenny.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/dolpenny.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/factor.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/factor.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/factor.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/factor.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/fitch.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/fitch.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/fitch.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/fitch.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/gendist.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/gendist.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/gendist.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/gendist.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/kitsch.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/kitsch.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/kitsch.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/kitsch.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/mix.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/mix.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/mix.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/mix.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/move.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/move.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/move.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/move.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/neighbor.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/neighbor.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/neighbor.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/neighbor.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/pars.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/pars.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/pars.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/pars.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/penny.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/penny.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/penny.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/penny.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/proml.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/proml.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/proml.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/proml.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/promlk.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/promlk.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/promlk.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/promlk.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/protdist.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protdist.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/protdist.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protdist.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/protpars.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protpars.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/protpars.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/protpars.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/restdist.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restdist.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/restdist.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restdist.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/restml.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restml.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/restml.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/restml.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/retree.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/retree.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/retree.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/retree.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/seqboot.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/seqboot.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/seqboot.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/seqboot.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/treedist.rc" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/treedist.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/icons/treedist.rcb" afterPath="$PROJECT_DIR$/phylip-3.697/src/icons/treedist.rcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawGramJava.bat" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawGramJava.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawTreeJava.bat" afterPath="$PROJECT_DIR$/phylip-3.697/src/javajars/DrawTreeJava.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upgma.py" afterPath="$PROJECT_DIR$/upgma.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -425,7 +104,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mfs_1_result" pinned="false" current-in-tab="true">
+      <file leaf-file-name="upgma.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upgma.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mfs_1_result" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phylip-3.697/exe/mfs_1_result">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-216">
@@ -486,10 +177,10 @@
         <option value="$PROJECT_DIR$/MFS_1/MFSD5" />
         <option value="$PROJECT_DIR$/MFS_1/MFSD6" />
         <option value="$PROJECT_DIR$/alignment.py" />
-        <option value="$PROJECT_DIR$/upgma.py" />
         <option value="$PROJECT_DIR$/mrbayes-3.2.6/bioinf/mfs_1.nex" />
         <option value="$PROJECT_DIR$/phylip-3.697/exe/mfs_1.phy" />
         <option value="$PROJECT_DIR$/proteinArrayBuilder.py" />
+        <option value="$PROJECT_DIR$/upgma.py" />
       </list>
     </option>
   </component>
@@ -849,20 +540,27 @@
       <option name="project" value="LOCAL" />
       <updated>1525707143629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mrbayes and Phylip added">
+      <created>1525717140297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525717140297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5263736" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5263736" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -884,7 +582,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="One family added and altered alignment algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="One family added and altered alignment algorithm" />
+    <MESSAGE value="Mrbayes and Phylip added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mrbayes and Phylip added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -896,7 +595,7 @@
         <state relative-caret-position="468">
           <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -916,7 +615,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1043,16 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upgma.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phylip-3.697/exe/mfs_1_tree">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1066,6 +755,16 @@
         <state relative-caret-position="-216">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
