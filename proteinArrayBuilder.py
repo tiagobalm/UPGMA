@@ -1,7 +1,7 @@
 import os
 import math
 
-directory = "MFS_1"
+directory = "Mito_carr"
 
 
 def build_protein_arrays():

@@ -1,4 +1,4 @@
-from ete2 import Tree, TreeStyle, random_color
+from ete3 import Tree, TreeStyle, random_color
 from matrixBuilder import build_distance_matrix
 from proteinArrayBuilder import build_protein_arrays
 import logging
@@ -45,14 +45,12 @@ def coordinates_lowest_value_matrix(matrix):
     return x, y
 
 
-
 def clustering_abc(abc, x, y):
     if y < x:
         x, y = y, x
     abc[x] = "(" + abc[x] + "," + abc[y] + ")"
     del abc[y]
     return abc
-
 
 
 def update_matrix(matrix, x, y):
@@ -73,8 +71,6 @@ def update_matrix(matrix, x, y):
     return matrix
 
 
-
-
 def neighbor_joining(distance_matrix, protein_labels):
     while len(distance_matrix) > 2:
        x, y = coordinates_lowest_value_matrix(D_i_j(distance_matrix))
@@ -83,7 +79,6 @@ def neighbor_joining(distance_matrix, protein_labels):
     if len(distance_matrix)==2:
             clustering_abc(protein_labels, 0, 1)
     return protein_labels[0]
-
 
 
 def my_layout(node):
@@ -109,25 +104,8 @@ def constructing_final_tree(distance_matrix, protein_labels):
 proteinsArray, proteinNames = build_protein_arrays()
 
 logging.debug("Building distance matrix. Please wait...")
-
 distanceMatrix = build_distance_matrix(proteinsArray)
 
 logging.debug("Building tree....")
-
-
 print(constructing_final_tree(distanceMatrix, proteinNames))
 
-
-
-
-
-
-    
-
-    
-        
-         
-    
-
-    
-    
