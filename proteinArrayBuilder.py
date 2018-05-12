@@ -1,5 +1,4 @@
 import os
-import math
 
 directory = "Mito_carr"
 
@@ -8,7 +7,7 @@ def build_protein_arrays():
 
     protein_array = []
     protein_names = []
-    shortest_string = math.inf
+    shortest_string = float('inf')
 
     for file in os.listdir(directory):
         f = open(os.path.join(directory, file), "r")

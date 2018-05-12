@@ -1,4 +1,4 @@
-from ete3 import Tree, TreeStyle, random_color
+from ete2 import Tree, TreeStyle, random_color
 from matrixBuilder import build_distance_matrix
 from proteinArrayBuilder import build_protein_arrays
 import logging
@@ -107,5 +107,5 @@ logging.debug("Building distance matrix. Please wait...")
 distanceMatrix = build_distance_matrix(proteinsArray)
 
 logging.debug("Building tree....")
-print(constructing_final_tree(distanceMatrix, proteinNames))
+constructing_final_tree(distanceMatrix, proteinNames)
 

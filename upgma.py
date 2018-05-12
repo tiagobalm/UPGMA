@@ -1,4 +1,4 @@
-from ete3 import Tree, TreeStyle
+from ete2 import Tree, TreeStyle
 from matrixBuilder import build_distance_matrix
 from proteinArrayBuilder import build_protein_arrays
 import logging
